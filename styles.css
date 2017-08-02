@@ -26,8 +26,13 @@ h2{
   text-decoration: underline;
   text-decoration-color: blue;
 }
-.hover{
-
+.social{
+  color: transparent;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.social:hover{
+  color: grey;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.0);
 }
 img{
   width: 100%;
