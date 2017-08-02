@@ -10,7 +10,7 @@ function buildDirectory(){
             <h2 class="name">${customers.results[i].name.title} ${customers.results[i].name.first} ${customers.results[i].name.last}</h2>
             <h3 class="email">${customers.results[i].email}</h3>
             <h4 class="street_address">${customers.results[i].location.street}</h4>
-            <h4 class="location">test</h4>
+            <h4 class="location">${customers.results[i].location.city}, ${customers.results[i].location.state} ${customers.results[i].location.postcode}</h4>
             <h4 class="phone">test</h4>
             <h5 class="social">test</h5>
         `;
