@@ -59,7 +59,7 @@ img{
   align-content: center;
 }
 
-@media(max-width: 600px){
+@media(max-width: 800px){
   .customerDirectory{
     grid-template-rows: 30vh 30vh 30vh;
   }
