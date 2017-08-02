@@ -7,7 +7,7 @@ function buildDirectory(){
         div.setAttribute('class','person')
         buildArea.appendChild(div);
         let content = `
-            <img src=${customers.results[i].picture.thumbnail} alt="Image">
+            <img src=${customers.results[i].picture.large} alt="Image">
             <h2 class="name">${customers.results[i].name.title} ${customers.results[i].name.first} ${customers.results[i].name.last}</h2>
             <h3 class="email">${customers.results[i].email}</h3>
             <h4 class="street_address">${customers.results[i].location.street}</h4>

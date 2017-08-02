@@ -1,14 +1,39 @@
 h1 {
-  color: blue;
-  width:100vw;
+  color: black;
+  width:100% auto;
 }
-
+h1, h2, h3, h4, h5{
+    text-align: center;
+    font-family: sans-serif;
+}
+h2, h3, h4, h5{
+  margin: 0 auto;
+}
+h2{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+img{
+  height: 50%;
+  align-self: center;
+}
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .customerDirectory{
   display: grid;
-  width: 100vw;
-  grid-template-columns: 25vw 25vw 25vw 25vw;
-  grid-template-rows: 33vh 33vh 33vh;
+  width: 100% auto;
+  grid-template-columns: 22vw 22vw 22vw 22vw;
+  grid-template-rows: 50vh 50vh 50vh;
+  justify-content:space-around;
 }
 .person{
+  margin-left: 1vw;
+  display: flex;
+  flex-direction: column;
   width:20vw;
+  justify-content: center;
+  align-content: center;
 }
