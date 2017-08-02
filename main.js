@@ -1,4 +1,4 @@
-console.log(customers.results.length);
+console.log(customers.results[0].picture.thumbnail);
 let buildArea = document.querySelector('body');
 
 function buildDirectory(){
@@ -6,7 +6,7 @@ function buildDirectory(){
         let div = document.createElement('div');
         buildArea.appendChild(div);
         let content = `
-            <img src="" alt="">
+            <img src=${customers.results[i].picture.thumbnail} alt="">
             <h2 class="name">test</h2>
             <h3 class="email">test</h3>
             <h4 class="street_address">test</h4>
