@@ -6,8 +6,8 @@ function buildDirectory(){
         let div = document.createElement('div');
         buildArea.appendChild(div);
         let content = `
-            <img src=${customers.results[i].picture.thumbnail} alt="">
-            <h2 class="name">test</h2>
+            <img src=${customers.results[i].picture.thumbnail} alt="Image">
+            <h2 class="name">${customers.results[i].name.title} ${customers.results[i].name.first} ${customers.results[i].name.last}</h2>
             <h3 class="email">test</h3>
             <h4 class="street_address">test</h4>
             <h4 class="location">test</h4>
